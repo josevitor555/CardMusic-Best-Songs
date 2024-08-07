@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./CSS/root.css">
+  <link rel="stylesheet" href="./CSS/style.css">
+  <link rel="stylesheet" href="./src/input.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <title>MusicCard</title>
+</head>
+<body>
+
+  <audio src="" id="player-audio"></audio>
+  <div class="container-music">
+    <header>
+      <i class="fa-solid fa-bars"></i>
+      <h1 class="text-2xl font-extrabold dark:text-black">CardMusic <small class="ms-2 font-semibold text-gray-500 dark:text-gray-600">A card of daily songs</small></h1>
+      <i class="fa-solid fa-right-from-bracket"></i>
+    </header>
+    <div class="area-user">
+      <div class="circle-perfil" id="image-user"></div>
+      <span class="name-user"> @_card.music </span>
+      <button type="button" class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-3xl px-8 py-4 me-2 mb-2 mt-4 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">About</button>
+    </div>
+    <div class="sub-container">
+      <div class="info-music">
+        <span class="name-music" id="song-name"> </span>        
+        <span class="name-artist" id="name-artist"> </span>        
+      </div>
+      <div class="controls">
+        <input type="range" min="0" max="100" value="0" class="slider" id="seek-slider">
+        <div class="timer-container">
+          <span class="current-time"> 00:00 </span>
+          <span class="duration"> 00:00 </span>
+        </div>
+        <div class="icons-control">
+          <i class="fa-solid fa-repeat" id="repeat-icon">
+            <span class="no-repeat"></span>
+          </i>
+          <i class="fa-solid fa-backward"></i>
+          <i class="fa-solid fa-play" id="play-pause"></i>
+          <i class="fa-solid fa-forward"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./JS/playPause.js"></script>
+  <script type="module" src="./JS/main.js"></script>
+</body>
+</html>

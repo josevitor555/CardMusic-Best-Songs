@@ -1,0 +1,18 @@
+:root {
+  --bg-card-music: #f8f8f8;
+  --bg-color: #e0e0e4;
+  --color-icons-header: #2a2a2e;
+  --color-name-user: #262629;
+  --bg-button: #27282c;
+  --color-name-music: #19191b;
+  --color-name-artist: #27272b;
+  --bg-color-type-range: #28282b;
+  --bg-color-circle-range: #2c2c30;
+  --color-time-duration: #1b1b1d;
+  --circle-icons-control-bg: #2b2a2e;
+  --color-icons-control: #4A57E0;
+  --color-fa-repeat: #e5e5ec;
+  
+  /*Default Size*/
+  font-size: 62.5%;
+}
