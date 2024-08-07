@@ -18,8 +18,21 @@
   <audio src="" id="player-audio"></audio>
   <div class="container-music">
     <header>
-      <i class="fa-solid fa-bars"></i>
-      <h1 class="text-3xl font-extrabold dark:text-black">CardMusic <small class="ms-2 font-semibold text-gray-500 dark:text-gray-600">A card of daily songs</small></h1>
+      <label for="id-show-menu" class="show-menu">
+        <div class="nav-icon">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </label>
+      <input type="checkbox" id="id-show-menu" class="checkbox-menu" role="button">
+      <div class="menu-block">
+        <ul class="nav-ul">
+          <li> <a href="#" class="text-2xl"> Explore </a> </li>
+          <li> <a href="#" class="text-2xl"> Settings </a> </li>
+          <li> <a href="#" class="text-2xl"> PlayList </a> </li>
+          <li> <a href="#" class="text-2xl"> About </a> </li>
+        </ul>
+      </div>
+      <!-- <h1 class="text-3xl font-extrabold dark:text-black">CardMusic <small class="ms-2 font-semibold text-gray-500 dark:text-gray-600">A card of daily songs</small></h1> -->
       <i class="fa-solid fa-right-from-bracket"></i>
     </header>
     <div class="area-user">
