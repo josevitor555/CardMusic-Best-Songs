@@ -158,6 +158,13 @@
   cursor: pointer;
 }
 
+.container-music .sub-container .controls .icons-control .fa-solid.fa-repeat span {
+  font-size: 1.2rem;
+  margin-top: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
 .container-music .sub-container .controls .icons-control .fa-solid.fa-backward {
   color: var(--circle-icons-control-bg);
   background: #ffffff;
